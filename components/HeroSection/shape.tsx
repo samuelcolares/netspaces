@@ -10,7 +10,7 @@ export const Shape = () => {
   return (
     <div className="absolute right-0 top-0 bottom-0 lg:w-[797.62px] w-[170px] h-[170px] animate-fadeIn opacity-0">
       <div
-        className="absolute inset-0 lg:rounded-[147.8px] rounded-[40px] lg:w-[797.62px] lg:h-[797.62px] -rotate-45 lg:-translate-y-16 lg:translate-x-44 translate-x-14 overflow-hidden"
+        className="absolute inset-0 lg:rounded-[147.8px] rounded-[40px] lg:w-[797.62px] lg:h-[797.62px] -rotate-45 lg:-translate-y-16 min-[1500px]:translate-x-44 lg:translate-x-96 translate-x-14 overflow-hidden"
         style={{
           background:
             "linear-gradient(135deg, hsla(243, 48%, 68%, 1) 13%, hsla(218, 83%, 68%, 1) 30%, hsla(211, 95%, 68%, 1) 44%, hsla(201, 97%, 70%, 1) 80%, hsla(207, 95%, 71%, 1) 100%)",

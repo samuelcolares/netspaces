@@ -50,7 +50,7 @@ export const BuildingCardsWrapper = () => {
 
   return (
     <div
-      className="relative lg:w-[315px] lg:h-[420px] w-[180.15px] h-[253.66px] max-lg:order-last"
+      className="relative lg:w-[315px] lg:h-[420px] w-[180.15px] h-[253.66px] max-[1400px]:order-last"
       onClick={invertCards}
     >
       <BuildingCard

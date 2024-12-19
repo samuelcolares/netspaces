@@ -32,7 +32,7 @@ const HeroSection = () => {
 
   return (
     <section className="overflow-hidden relative max-lg:px-8">
-      <div className="lg:space-y-10 lg:my-28 my-16 lg:max-w-[589px] lg:ml-[121px]">
+      <div className="lg:space-y-10 lg:my-28 my-16 xl:max-w-[589px] lg:max-w-[409px] lg:ml-[121px]">
         <NetspacesLogoImg />
         <Header className="max-lg:mt-[50px]">{HeroSectionTexts.header}</Header>
         <div className="mt-6 mb-10 relative">

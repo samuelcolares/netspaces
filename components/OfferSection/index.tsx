@@ -11,10 +11,10 @@ import { OfferSectionTexts } from "@/src/lib/constants";
 
 const OfferSection = () => {
   return (
-    <section className="bg-[#f9f9f9] py-[90px] flex lg:gap-60 justify-center max-lg:px-8 max-lg:py-14 max-lg:flex-col gap-9 max-lg:items-center">
+    <section className="bg-[#f9f9f9] py-[90px] flex justify-center max-lg:px-8 max-lg:py-14 max-[1400px]:flex-col max-[1400px]:gap-10 max-[1400px]:items-center gap-60 max-lg:items-center xl:px-32">
       <BuildingCardsWrapper />
 
-      <div className="max-w-[589px] lg:mr-32">
+      <div className="max-w-[589px]">
         <Header header="h3" variant={"highlight"}>
           {OfferSectionTexts.subHeader}
         </Header>
