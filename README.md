@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<a name="readme-top"></a>
 
-## Getting Started
+<br />
+<div align="center">
+    <img src="https://imgur.com/nl9iRLD.png" alt="Logo" width="400" height="100">
 
-First, run the development server:
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<details>
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#construído-com">Construído com</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#clonando-o-repositório">Clonando o Repositório</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#contato">Contato</a></li>
+  </ol>
+</details>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- ABOUT THE PROJECT -->
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Sobre o projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+A aplicação consistiu em copiar um design pronto a partir do figma em duas resoluções desktop (W: 1440px) e mobile (W: 375px).
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right">(<a href="#readme-top">Voltar ao inicío</a>)</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Construído com
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Static Badge](https://img.shields.io/badge/CORE-8A2BE2)
 
-## Deploy on Vercel
+- Next
+- React
+- TypeScript
+  <br/><br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Static Badge](https://img.shields.io/badge/STYLING-2f7e74)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- TailwindCSS
+  <br/><br/>
+
+<p align="right">(<a href="#readme-top">Voltar ao inicío</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Clonando o Repositório
+
+Este é um guia dos passos que você precisa fazer para utilizar o projeto na em sua máquina local
+
+### Pré-requisitos
+
+Se você já possuir Node.js instalado em sua máquina, pode pular esse passo, caso contrário, em seu terminal:
+
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+### Instalação
+
+Em seu terminal:
+
+1. Clone o repositório
+   ```sh
+   git clone https://github.com/samuelcolares/netspaces.git
+   ```
+2. Abra a pasta do repositório
+   ```sh
+   cd netspaces
+   ```
+3. Instale os pacotes NPM
+
+   ```sh
+   npm install
+   ```
+
+4. Se você usa VSCode como seu editor de código e deseja inspecionar o código deste teste, use o comando abaixo para abrir uma janela diretamente do seu terminal:
+
+   ```sh
+   code .
+   ```
+
+5. Para o projeto funcionar em modo desenvolvedor:
+
+   ```sh
+   npm run dev
+   ```
+6. Em seu navegador de preferência vá para url:
+
+   [localhost:3000](http://localhost:3000/)
+
+7. Caso queira que o projeto funcione em modo de produção será necessário dois comandos em sequência:
+```sh
+   npm run build
+   npm run start
+   ```
+8. Novamente, em seu navegador de preferência, vá para a url:
+
+[localhost:3000](http://localhost:3000/) ou acesse o [meu deploy](https://netspaces.vercel.app/)
+
+Os exemplos acima foram mostrando como iniciar a aplicação localmente com NPM, mas é claro que você pode usar outros gerenciadores de pacotes como: **PNPM**, **YARN**, **BUN**, mas para evitar problemas, recomendo usar o mesmo gerenciador de pacotes que eu usei para fazer esse projeto
+
+<p align="right">(<a href="#readme-top">Voltar ao inicío</a>)</p>
+
+## Contato
+
+Samuel Colares - samuelcolaresdequino@gmail.com
+
+<p align="right">(<a href="#readme-top">Voltar ao inicío</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+
