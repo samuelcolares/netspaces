@@ -14,11 +14,22 @@ import { useMediaQuery } from "@/src/hooks/useMediaQuery";
 // utils
 import { HeroSectionTexts } from "@/src/lib/constants";
 import { Shape } from "./shape";
+import toast from "react-hot-toast";
+import { fakePromise } from "@/src/lib/utils";
 
 const desktop = "(min-width: 1024px)";
 
 const HeroSection = () => {
   const isDesktop = useMediaQuery(desktop);
+
+  const awaitList = async () => {
+    await toast.promise(fakePromise(), {
+      error: "Erro",
+      loading: "Estamos reservando o seu lugar na fila!",
+      success: "Seu lugar na fila foi reservado! 🎉🎉",
+    });
+  };
+
   return (
     <section className="overflow-hidden relative max-lg:px-8">
       <div className="lg:space-y-10 lg:my-28 my-16 lg:max-w-[589px] lg:ml-[121px]">
@@ -30,7 +41,7 @@ const HeroSection = () => {
           </Text>
           {!isDesktop && <Shape />}
         </div>
-        <Button>{HeroSectionTexts.button}</Button>
+        <Button onClick={awaitList}>{HeroSectionTexts.button}</Button>
       </div>
       {isDesktop && <Shape />}
     </section>
