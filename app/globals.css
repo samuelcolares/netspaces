@@ -5,12 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --buttonPrimary: #558eff;
+  --primary: #071d49;
+  --secondary: #7900ce;
+  --highlight: #ff3e7d;
+  --tertiary: #707070;
+  --divider: #d6d6d6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer components {
+  .center {
+    @apply flex justify-center items-center;
   }
 }
 
